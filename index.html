@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/style.css">
+    <title>Lucky guess</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="game-content">
+            <h1>Number Match Game</h1>
+            <p>Enter three numbers (0 - 50):</p>
+            <input type="text" id="num1" min="0" max="50" placeholder="Enter a number" />
+            <input type="text" id="num2" min="0" max="50" placeholder="Enter a number" />
+            <input type="text" id="num3" min="0" max="50" placeholder="Enter a number" />
+            <br />
+            <button id="playButton">Play Now</button>
+        </div>
+        <div class="results">
+            <h2>Genrated numbers will be shown here</h2>
+            <p>Play now and see your win</p>
+            <div class="result-section">
+                <p id="generated-numbers"></p>
+                <p id="result"></p>
+                <p id="user-number"></p>
+                <p id="match-numbers"></p>
+                <p id="win"></p>
+            </div>
+        </div>
+    </div>
+    <script src="javascript/main.js"></script>
+</body>
+
+</html>
